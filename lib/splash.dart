@@ -26,18 +26,18 @@ class _SplashState extends State<Splash> {
     slides.add(
       new Slide(
         title: "Pesan",
-        description: "Welcome to Sativa Batako",
+        description: "Welcome to Rencang Gunung Outdoor",
         pathImage: "assets/images/rg_logo.png",
       ),
     );
     slides.add(new Slide(
       title: "Bersedekah",
-      description: "Selamat Datang Sativa Batako",
-      pathImage: "assets/images/kufi_tdc-color.png",
+      description: "Selamat Datang Rencang Gunung Outdoor",
+      pathImage: "assets/images/kufi_tdc.png",
     ));
     slides.add(new Slide(
       title: "Dukung UMKM",
-      description: "Sugeng Rawuh Sativa Batako",
+      description: "Sugeng Rawuh Rencang Gunung Outdoor",
       pathImage: "assets/images/pricelist.png",
     ));
   }
@@ -84,10 +84,10 @@ class _SplashState extends State<Splash> {
       tabs.add(Container(
         width: double.infinity,
         height: double.infinity,
-        alignment: Alignment.center,
+        alignment: Alignment.bottomCenter,
         child: Center(
           child: Container(
-            margin: EdgeInsets.only(bottom: 60.0, top: 100.0),
+            margin: EdgeInsets.fromLTRB(20, 200, 20, 50),
             alignment: Alignment.bottomCenter,
             child: ListView(
               children: <Widget>[
@@ -134,7 +134,7 @@ class _SplashState extends State<Splash> {
       // Skip button
       renderSkipBtn: this.renderSkipBtn(),
       colorSkipBtn: Color(0x33ffcc5c),
-      highlightColorSkipBtn: Color(0xffffcc5c),
+      highlightColorSkipBtn: Color(0xFF38D7F3),
 
       // Next button
       renderNextBtn: this.renderNextBtn(),
@@ -143,10 +143,10 @@ class _SplashState extends State<Splash> {
       renderDoneBtn: this.renderDoneBtn(),
       onDonePress: this.onDonePress,
       colorDoneBtn: Color(0x33ffcc5c),
-      highlightColorDoneBtn: Color(0xffffcc5c),
+      highlightColorDoneBtn: Color(0xFFA0DBE5),
 
       // Dot indicator
-      colorDot: Color(0xffffcc5c),
+      colorDot: Color(0xFF2AA4EB),
       sizeDot: 13.0,
       typeDotAnimation: dotSliderAnimation.SIZE_TRANSITION,
 
