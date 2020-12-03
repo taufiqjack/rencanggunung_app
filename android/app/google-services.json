@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "892818748436",
+    "project_id": "rencanggunung-117e1",
+    "storage_bucket": "rencanggunung-117e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892818748436:android:388f88d1b53ee322f22301",
+        "android_client_info": {
+          "package_name": "com.taufiqjack.rencanggunung_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892818748436-c490c0qf8a4h8bp6j42288rjpha1pgsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taufiqjack.rencanggunung_app",
+            "certificate_hash": "4dcbfa10a6189de4a835f259be9d51464e09449e"
+          }
+        },
+        {
+          "client_id": "892818748436-k4go4i2dipj0sv1ddrrjmsbjq1uckbe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2wjHftvxUDGJjBVn4EL7C-5ubcUmEa34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892818748436-k4go4i2dipj0sv1ddrrjmsbjq1uckbe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
